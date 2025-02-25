@@ -11,6 +11,7 @@ Se consideran infecciosas a las personas desde el primer día de síntomas.
 Se modelan explícitamente los casos ambulatorios y hospitalizados usando distribuciones de tiempo gamma.
 Se estima que una proporción de los casos no son confirmados.
 Se emplea el método de Cadenas de Markov y Monte Carlo (MCMC) para la estimación de parámetros.
+
 🔢 Parámetros principales
 Algunos de los parámetros clave del modelo incluyen:
 
@@ -21,5 +22,6 @@ Tasa de progresión a hospitalización (sigma): 0.26 - 0.27
 Tasa de recuperación en aislados ambulatorios (gammaAC): 0.14 - 0.16
 Tasa de recuperación en hospitalizados (gammaHC): 0.098 - 0.102
 Mortalidad hospitalaria (muC): 0.2 - 0.35
+
 ⚙️ Metodología
 El modelo se ajusta a los datos reales mediante la optimización de parámetros usando MCMC. Se tienen en cuenta intervenciones gubernamentales y cambios en la tasa de contagio.
